@@ -1,0 +1,19 @@
+{
+  "name": "isbrowser2",
+  "version": "0.0.1",
+  "description": "A browserify transform to remove server-side code.",
+  "author": "Dylan Piercey <pierceydylan@gmail.com>",
+  "main": "lib/index.js",
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "eslint": "^0.17.1",
+    "gulp": "^3.8.11",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "esmangle-evaluator": "^1.0.0",
+    "recast": "^0.10.11",
+    "through2": "^0.6.3"
+  }
+}
